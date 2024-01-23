@@ -6,22 +6,28 @@
         <title>Nombre del producto</title>
         <link rel="stylesheet" href="css/reset.css" />
         <link rel="stylesheet" href="css/producto.css" />
+        <script defer src="src/js/traductor.js"></script>
+        <script defer src="src/js/producto.js"></script>
     </head>
     <body>
-        <div class="contenedor-nombre">
-            <h1>Nombre del producto</h1>
-        </div>
+        <nav class="contenedor-nombre">
+            <h1 id="product-name">Nombre del producto</h1>
+            <div class="contenedor-botones">
+                <a class="boton" href="tienda.html" id="back">Atras</a>
+                <a class="boton" href="tienda.html" id="done">Hecho</a>
+            </div>
+        </nav>
         <div class="producto">
             <img src="src/img/producto.webp" alt="Imagen de producto" />
             <ul class="detalles">
-                <li>Nombre: Nombre del producto</li>
-                <li>Descripción: Nombre del producto</li>
-                <li>Precio: Precio del producto</li>
+                <li id="product-name-details">Nombre: Nombre del producto</li>
+                <li id="product-description-details">Descripción: Nombre del producto</li>
+                <li id="product-price-details">Precio: Precio del producto</li>
             </ul>
         </div>
         <ul>
             <div class="ingrediente">
-                <li>Ingrediente 1</li>
+                <li id="ingredient-1">Ingrediente 1</li>
                 <img src="src/img/ingrediente1.webp" alt="Imagen del ingrediente" />
                 <div class="botones">
                     <button>-</button>
@@ -30,7 +36,7 @@
                 </div>
             </div>
             <div class="ingrediente">
-                <li>Ingrediente 2</li>
+                <li id="ingredient-2">Ingrediente 2</li>
                 <img src="src/img/ingrediente1.webp" alt="Imagen del ingrediente" />
                 <div class="botones">
                     <button>-</button>
@@ -39,7 +45,7 @@
                 </div>
             </div>
             <div class="ingrediente">
-                <li>Ingrediente 3</li>
+                <li id="ingredient-3">Ingrediente 3</li>
                 <img src="src/img/ingrediente1.webp" alt="Imagen del ingrediente" />
                 <div class="botones">
                     <button>-</button>
@@ -48,7 +54,7 @@
                 </div>
             </div>
             <div class="ingrediente">
-                <li>Ingrediente 4</li>
+                <li id="ingredient-4">Ingrediente 4</li>
                 <img src="src/img/ingrediente1.webp" alt="Imagen del ingrediente" />
                 <div class="botones">
                     <button>-</button>
@@ -57,7 +63,7 @@
                 </div>
             </div>
             <div class="ingrediente">
-                <li>Ingrediente 5</li>
+                <li id="ingredient-5">Ingrediente 5</li>
                 <img src="src/img/ingrediente1.webp" alt="Imagen del ingrediente" />
                 <div class="botones">
                     <button>-</button>
@@ -66,7 +72,7 @@
                 </div>
             </div>
             <div class="ingrediente">
-                <li>Ingrediente 6</li>
+                <li id="ingredient-6">Ingrediente 6</li>
                 <img src="src/img/ingrediente1.webp" alt="Imagen del ingrediente" />
                 <div class="botones">
                     <button>-</button>
