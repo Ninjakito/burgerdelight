@@ -13,6 +13,7 @@ header {
     padding-inline-start: 0%;
 }
 
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -70,12 +71,13 @@ section {
     padding: 2em;
 }
 
-/* no se a q esta relacionado en el index */
+/*container prouct boxes*/ 
 .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(min(40rem, 100%), 1fr));
+    grid-gap: 1rem;
     flex-wrap: wrap;
+    cursor:cell;
 }
 
 
@@ -86,7 +88,11 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.3s ease;
 
+}
+.box:hover {
+    background-color: #f9ff40; 
 }
 
 /*
@@ -94,32 +100,51 @@ section {
    background: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(10px); 
 } */
-
+.titulo{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Asegura que el div con letras esté sobre el div con la imagen */
+    color: #000000;
+    font-size: 24px;
+}
 .box1{
     background: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(10px); 
+    margin: 20px;
+   
 }
 .box2{
     background: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(10px); 
+    margin: 20px;
 }
 .box3{
     background: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(10px); 
+    margin: 20px;
 }
 .box4{
     background: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(10px); 
+    margin: 20px;
 }
 .box5{
     background: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(10px); 
+    margin: 20px;
 }
 .box6{
     background: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(10px); 
+    margin: 15px;
 }
-
+.image-container img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
 
 #btnPagos {
     background-color: #ff9900;
