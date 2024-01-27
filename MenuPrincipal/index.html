@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>Home</title>
 </head>
 <body>
     
@@ -20,12 +21,15 @@
 
 <body>
 
-    <header>
-        <h1>BurgerdeLight</h1>
-        
+    <header id="inicio">
+        <h2>Menu Principal</h2>
+        <div  class="content" id="logo">     
+            <img src="src/img/logo.svg"
+            width="70"
+            height="85" loading="lazy"/>
+        </div>
     </header>
-
-    html:       
+ 
     <nav class="content">
         <a href="./PgPrincipal.html">Home</a>
         <a href="./about.html">About</a>
@@ -33,22 +37,21 @@
         <a href="./quiosc.html">Acceso a Quiosco</a>
     </nav>
 
-    <section id="inicio">
-        <h2>Bienvenido a nuestro restaurante de comida rápida</h2>
+    <section> 
         <p>Ofrecemos deliciosas opciones para satisfacer tu apetito.</p>
+        <p>Aquí encontrarás nuestras opciones de comida rápida:</p>
     </section>
 
     <section id="menu">
-        <h2>Menú</h2>
-        <p>Aquí encontrarás nuestras opciones de comida rápida:</p>
+       
         <!--agregar elementos del menú -->
-        <div class="container">
-            <div class="box">Caja 1</div>
-            <div class="box">Caja 2</div>
-            <div class="box">Caja 3</div>
-            <div class="box">Caja 4</div>
-            <div class="box">Caja 5</div>
-            <div class="box">Caja 6</div>
+        <div class="container" id="box">
+            <div class="box box1">Menus</div>
+            <div class="box box2">Hamburguesas</div>
+            <div class="box box3">Patatas</div>
+            <div class="box box4">Bebidas</div>
+            <div class="box box5">Postres</div>
+            <div class="box box6">Promociones</div>
         </div>
        
     </section>
@@ -59,10 +62,7 @@
         <!-- agregar promociones -->
     </section>
 
-   <!--  <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Estamos aquí para ayudarte. ¡Contáctanos!</p>
-    </section> -->
+   
 
     <footer>
         <p>&copy; 2024 burgerdelight. Todos los derechos reservados.</p>
