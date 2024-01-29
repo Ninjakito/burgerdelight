@@ -1,4 +1,45 @@
 {
+    "index":{
+        "es": "Spanish",
+        "en": "English",
+        "ca": "Catalan",
+        "descripcion": "Welcome to Burger Delight! Immerse yourself in an extraordinary burger experience at Burger Delight. From classic Cheeseburgers to gourmet options, every bite is an explosion of authentic flavours - enjoy the pleasure in every bite!",
+        "about": "About us",
+        "contact": "Contact",
+        "acceso": "Kiosk access"
+    },
+    "about": {
+        "tituloabout": "About us",
+        "es": "spanish",
+        "en": "english",
+        "ca": "Catalan",
+        "bienvenido": "Welcome to Burger Delight!",
+        "parrafo1": "Burger delight is a company that is committed to providing customers with the best dining experiences. Since it was founded in 1996, it has become renowned for its fantastic food, always made with fresh ingredients and impeccable service.",
+        "calidad": "Commitment to Quality:",
+        "parrafo2": "At Burger delight, we believe that quality is the most important thing when it comes to customer satisfaction, which is why we make sure that our products are fresh and in the best condition. In order to ensure that our customers choose us, we also undergo rigorous hygiene controls.",
+        "variedad": "Variety of flavors:",
+        "parrafo3": "Tastes change, you may like one thing one day and hate it the next, that's why we have a wide variety of hamburgers available to our customers. And not only that, we innovate every so often, so we can offer more variety.",
+        "experiencia": "Customer Experience:",
+        "parrafo4": "At Burger Delight, customer satisfaction is our top priority. We strive to provide exceptional service in a welcoming and friendly environment. Our staff is trained to be prompt and courteous, ensuring that every visit is a positive and delicious experience.",
+        "comunidad": "Commitment to the Community:",
+        "parrafo5": "We believe in giving back to the community that has supported us. Burger Delight actively participates in local initiatives and community events. In addition, we strive to adopt sustainable practices in our operations to minimise our environmental impact. ",
+        "about": "About us",
+        "contact": "contact",
+        "acceso": "Kiosk access"
+    },
+    "contact": {
+        "titulocontact": "Contact Form",
+        "es": "Spanish",
+        "en": "English",
+        "ca": "Catalan",
+        "nombre": "Name:",
+        "email": "Email:",
+        "mensaje": "Message:",
+        "envio": "Send",
+        "about": "About us",
+        "contact": "Contact",
+        "acceso": "Kiosk access"
+      },
     "quiosc": {
         "principal-menu": "Main menu",
         "menu-title": "Menu",

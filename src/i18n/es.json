@@ -1,4 +1,45 @@
 {
+    "index":{
+        "es": "Español",
+        "en": "Inglés",
+        "ca": "Catalán",
+        "descripcion": "¡Bienvenido a Burger Delight! Sumérgete en una experiencia de hamburguesas extraordinarias en Burger Delight. Desde clásicas Cheeseburgers hasta opciones gourmet, cada bocado es una explosión de sabores auténticos. ¡Disfruta del placer en cada mordisco!",
+        "about": "Sobre nosotros",
+        "contact": "Contacto",
+        "acceso": "Acceso a quiosco"
+    },
+    "about": {
+        "tituloabout": "Sobre nosotros",
+        "es": "Español",
+        "en": "Inglés",
+        "ca": "Catalán",
+        "¡Bienvenido": "¡Bienvenido a Burger Delight!",
+        "parrafo1": "Burger delight es una empresa que se compromete con los clientes ofreciendoles las mejores experiencias gastronómicas. Desde que se fundó en 1996, se ha ido ganando renombre por sus fantásticas comidas, hechas siempre con ingredientes frescos y a su impecable servicio.",
+        "calidad": "Compromiso con la Calidad:",
+        "parrafo2": "En Burger delight, creemos que la calidad es lo más importante a la hora de satisfacer al cliente, por eso nos aseguramos de que nuestros productos son fresos y se encuentran en las mejores condiciones. En aras de que los clientes escojan nuestro local, también pasamos por rigurosos controles de higiene.",
+        "variedad": "Variedad de sabores:",
+        "parrafo3": "Los gustos cambian, un dia te puede gustar una cosa y al dia siguiente odiarla, por eso tenemos una amplia variedad de hamburguesas a disposición del cliente. Y no solo eso, innovamos cada poco tiempo, así podemos ofrecer más variedad.",
+        "experiencia": "Experiencia del Cliente:",
+        "parrafo4": "En Burger Delight, la satisfacción del cliente es nuestra máxima prioridad. Nos esforzamos por brindar un servicio excepcional en un ambiente acogedor y amigable. Nuestro personal está capacitado para atender con rapidez y cortesía, asegurando que cada visita sea una experiencia positiva y deliciosa.",
+        "comunidad": "Compromiso con la Comunidad:",
+        "parrafo5": "Creemos en devolver a la comunidad que nos ha apoyado. Burger Delight participa activamente en iniciativas locales y eventos comunitarios. Además, nos esforzamos por adoptar prácticas sostenibles en nuestras operaciones para minimizar nuestro impacto ambiental.",
+        "about": "Sobre nosotros",
+        "contact": "Contacto",
+        "acceso": "Acceso a quiosco"
+    },
+    "contact": {
+        "titulocontact": "Formulario de Contacto",
+        "es": "Español",
+        "en": "Inglés",
+        "ca": "Catalán",
+        "nombre": "Nombre:",
+        "email": "Correo Electrónico:",
+        "mensaje": "Mensaje:",
+        "envio": "Enviar",
+        "about": "Sobre nosotros",
+        "contact": "Contacto",
+        "acceso": "Acceso a quiosco"
+    },
     "quiosc": {
         "principal-menu": "Menú principal",
         "menu-title": "Menú",

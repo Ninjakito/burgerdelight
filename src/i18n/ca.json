@@ -1,4 +1,45 @@
 {
+    "index":{
+        "es": "Espanyol",
+        "en": "Anglès",
+        "ca": "Català",
+        "descripcion": "Benvingut a Burger Delight! Submergeix-te en una experiència d'hamburgueses extraordinàries a Burger Delight. Des de clàssiques Cheeseburgers fins a opcions gurmet, cada mos és una explosió de sabors autèntics. Gaudeix del plaer a cada mossegada!",
+        "about": "Sobre nosaltres",
+        "contact": "Contacte",
+        "acceso": "Accés a quiosc"
+      },
+      "about": {
+            "tituloabout": "Sobre nosaltres",
+            "es": "Espanyol",
+            "en": "Anglès",
+            "ca": "Català",
+            "bienvenido": "Benvingut a Burger Delight!",
+            "parrafo1": "Burger delight és una empresa que es compromet amb els clients oferint-los les millors experiències gastronòmiques. Des que es va fundar el 1996, s'ha anat guanyant renom pels seus fantàstics menjars, fets sempre amb ingredients frescos i al seu servei impecable.",
+            "calidad": "Compromís amb la Qualitat:",
+            "parrafo2": "A Burger delight, creiem que la qualitat és el més important a l'hora de satisfer el client, per això ens assegurem que els nostres productes són maduixots i es troben en les millors condicions. Per tal que els clients escullin el nostre local, també passem per rigorosos controls d'higiene.",
+            "variedad": "Varietat de sabors:",
+            "parrafo3": "Els gustos canvien, un dia us pot agradar una cosa i l'endemà odiar-la, per això tenim una àmplia varietat d'hamburgueses a disposició del client. I no només això, innovem cada poc temps, així podem oferir més varietat.",
+            "experiencia": "Experiència del Client:",
+            "parrafo4": "A Burger Delight, la satisfacció del client és la nostra màxima prioritat. Ens esforcem per oferir un servei excepcional en un ambient acollidor i amigable. El nostre personal està capacitat per atendre amb rapidesa i cortesia, assegurant que cada visita sigui una experiència positiva i deliciosa.",
+            "comunidad": "Compromís amb la Comunitat:",
+            "parrafo5": "Creiem a tornar a la comunitat que ens ha donat suport. Burger Delight participa activament en iniciatives locals i esdeveniments comunitaris. A més, ens esforcem per adoptar pràctiques sostenibles a les nostres operacions per minimitzar el nostre impacte ambiental.",
+            "about": "Sobre nosaltres",
+            "contact": "Contacte",
+            "acceso": "Accés a quiosc"
+    },
+    "contact": {
+        "titulocontact": "Formulari de contacte",
+        "es": "Espanyol",
+        "en": "Anglès",
+        "ca": "Català",
+        "nombre": "Nom:",
+        "email": "Correu Electrònic:",
+        "mensaje": "Missatge:",
+        "envio": "Enviar",
+        "about": "Sobre nosaltres",
+        "contact": "Contacte",
+        "acceso": "Accés a quiosc"
+      },
     "quiosc": {
         "principal-menu": "Menú principal",
         "menu-title": "Menú",
