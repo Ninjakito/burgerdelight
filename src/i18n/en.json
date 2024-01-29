@@ -63,5 +63,25 @@
         "ingredient-4": "Ingredient 4",
         "ingredient-5": "Ingredient 5",
         "ingredient-6": "Ingredient 6"
-    }
+    },
+    "carrito":{
+            "titulocarrito": "Fast Food Shopping Cart",
+            "pedido": "Your order",
+            "pedidohamburguesa": "Burger - €4.99",
+            "patatas": "Potatoes - €2.99",
+            "happymeal": "Happy meal - €5.99",
+            "bebida": "Drink x4 - €4.99",
+            "login": "Do you already have your data saved?",
+            "sesion": "Log in",
+            "credito": "Credit card",
+            "debito": "Debit card",
+            "nombrepedido": "Name",
+            "numeropedido": "Your order number:",
+            "ticket": "Print ticket",
+            "escanear": "Scan QR",
+            "efectivo": "Cash on hand",
+            "moneda": "Current currency: €",
+            "editar": "Edit your order",
+            "confirmar": "CONFIRM PAYMENT"
+        }
 }
