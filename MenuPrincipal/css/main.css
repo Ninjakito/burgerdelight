@@ -100,18 +100,13 @@ nav a:hover {
     font-family: 'Montserrat';
     font-size: 2rem;
 }
-.text {
-    float:right;
-    margin-left: 20px;
-    font-family: 'Montserrat';
-    font-size: 2rem;
-}
+
 .container{
-    width: fit-content;
     display: flex;
-    grid-template-columns:
-    grid-gap: 1rem;
+    padding-left: 6rem;
+    grid-gap: 5rem;
     flex-wrap: wrap;
+    
 }
 
 img{
