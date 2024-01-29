@@ -78,7 +78,7 @@
             "nombrepedido": "Name",
             "numeropedido": "Your order number:",
             "ticket": "Print ticket",
-            "escanear": "Scan QR",
+            "qr": "Scan QR",
             "efectivo": "Cash on hand",
             "moneda": "Current currency: €",
             "editar": "Edit your order",

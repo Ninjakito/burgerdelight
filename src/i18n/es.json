@@ -78,7 +78,7 @@
         "nombrepedido": "Nombre",
         "numeropedido": "Tu número de pedido:",
         "ticket": "Imprimir ticket",
-        "escanear": "Escanear QR",
+        "qr": "Escanear QR",
         "efectivo": "Efectivo en caja",
         "moneda": "Moneda actual: €",
         "editar": "Editar tu pedido",
