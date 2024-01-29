@@ -1,5 +1,5 @@
 {
-    "index":{
+    "index": {
         "es": "Spanish",
         "en": "English",
         "ca": "Catalan",
@@ -39,7 +39,7 @@
         "about": "About us",
         "contact": "Contact",
         "acceso": "Kiosk access"
-      },
+    },
     "quiosc": {
         "principal-menu": "Main menu",
         "menu-title": "Menu",
