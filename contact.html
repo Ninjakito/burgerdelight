@@ -1,22 +1,26 @@
 <!DOCTYPE html>
-<html lang="es">   
+<html lang="es">
     <head>
         <title>Contact</title>
-        <meta name="author" content="Adrian Villodres Fernández"/>
-        <meta http-equiv="cache-control" content="no-cache"/>
-        <meta name="keywords" content="HTML, hipertexto, elementos, etiquetas, enlaces, Web, Javascript, Marcas"/>
-        <meta name="robots" content="index,follow"/>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="./css/reset.css">
-        <link rel="stylesheet" href="./css/main.css">
+        <meta name="author" content="Adrian Villodres Fernández" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta
+            name="keywords"
+            content="HTML, hipertexto, elementos, etiquetas, enlaces, Web, Javascript, Marcas"
+        />
+        <meta name="robots" content="index,follow" />
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="./src/css/reset.css" />
+        <link rel="stylesheet" href="./src/css/main.css" />
     </head>
     <body>
         <div class="content">
-            <div class="boton-desplegable">Idioma/Language
+            <div class="boton-desplegable">
+                Idioma/Language
                 <div class="opciones">
-                    <a href="./PgPrincipal.html" id="español">Español</a>
-                    <a href="./PgPrincipal.html" id ="catalan">Catalan</a>
-                    <a href="./PgPrincipal.html" id="ingles">Ingles</a>
+                    <a href="./index.html" id="español">Español</a>
+                    <a href="./index.html" id="catalan">Catalan</a>
+                    <a href="./index.html" id="ingles">Ingles</a>
                 </div>
             </div>
         </div>
@@ -25,42 +29,52 @@
             <div id="formulario">
                 <form action="/gracias" method="post" netlify>
                     <label for="nombre">Nombre:</label>
-                    <input type="text" id="nombre" name="nombre" required>
-                    <br>
-                    <br>
-                    <br>
+                    <input type="text" id="nombre" name="nombre" required />
+                    <br />
+                    <br />
+                    <br />
                     <label for="email">Correo Electrónico:</label>
-                    <input type="email" id="email" name="email" required>
-                    <br>
-                    <br>
-                    <br>
+                    <input type="email" id="email" name="email" required />
+                    <br />
+                    <br />
+                    <br />
                     <label for="mensaje">Mensaje:</label>
                     <textarea id="mensaje" name="mensaje" required></textarea>
-                    <br>
-                    <br>
-                    <br>
+                    <br />
+                    <br />
+                    <br />
                     <button type="submit">Enviar</button>
                 </form>
             </div>
         </div>
-        
+
         <div class="atencionalcliente">
-            <img id="atencion"src="img/atencion.jpg"
-            width="250"
-            height="200" loading=lazy/> 
+            <img
+                id="atencion"
+                src="img/atencion.jpg"
+                width="250"
+                height="200"
+                loading="lazy"
+            />
         </div>
 
-        <div class ="menu" id="menuboton"><img class="content" id="hamburguesa"src="img/hamburguesa.png"
-            width="60"
-            height="50" loading=lazy/>   
+        <div class="menu" id="menuboton">
+            <img
+                class="content"
+                id="hamburguesa"
+                src="img/hamburguesa.png"
+                width="60"
+                height="50"
+                loading="lazy"
+            />
             <div class="navbaropciones">
-            <nav class="content">
-                    <a href="./PgPrincipal.html" id="home">Home</a>
+                <nav class="content">
+                    <a href="./index.html" id="home">Home</a>
                     <a href="./about.html" id="about">About</a>
                     <a href="./contact.html" id="contact">Contact</a>
                     <a href="./quiosc.html" id="acceso">Acceso a Quiosco</a>
-            </nav>
-            </div> 
+                </nav>
+            </div>
         </div>
     </body>
 </html>
