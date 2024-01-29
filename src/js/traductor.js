@@ -8,6 +8,9 @@ window.onload = function () {
         const links = document.querySelectorAll("a");
         links.forEach((link) => {
             const href = link.getAttribute("href");
+            if (href.includes("?lang=")) {
+                return; 
+            }
             link.setAttribute("href", href + "?lang=" + lang);
         });
     }
@@ -23,7 +26,7 @@ async function changeLanguage(lang) {
         lang;
     window.history.replaceState({}, "", newURL);
 
-    const response = await fetch(`./i18n/${lang}.json`);
+    const response = await fetch(`./src/i18n/${lang}.json`);
 
     if (response.status === 404) {
         console.log(`No existe el archivo ${lang}.json`);
@@ -32,12 +35,22 @@ async function changeLanguage(lang) {
 
     const data = await response.json();
 
-    console.log(data)
+    const archivo =
+        window.location.pathname.replace("/", "").replace(".html", "") === ""
+            ? "index"
+            : window.location.pathname.replace("/", "").replace(".html", "");
 
-    for (const element in data) {
-        console.log(element, data[element]);
+    console.log(archivo);
+
+    const dataCorrecto = data[archivo];
+
+    if (!dataCorrecto) {
+        console.log(`No existe la traducción para ${archivo}`);
+        return;
+    }
+
+    for (const element in dataCorrecto) {
         let elemento = document.getElementById(element);
-        console.log(elemento)
-        elemento.innerHTML = data[element];
+        elemento.innerHTML = dataCorrecto[element];
     }
 }
