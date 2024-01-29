@@ -78,7 +78,7 @@
             "nombrepedido": "Nom",
             "numeropedido": "El teu número de comanda:",
             "ticket": "Imprimir tiquet",
-            "escanear": "Escanejar QR",
+            "qr": "Escanejar QR",
             "efectivo": "Efectiu en caixa",
             "moneda": "Moneda actual: €",
             "editar": "Edita la teva comanda",
