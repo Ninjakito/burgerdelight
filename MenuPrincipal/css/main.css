@@ -1,0 +1,167 @@
+:root {
+    --color-1: #545e75;
+    --color-2: #63adf2;
+    --color-3: #a7cced;
+    --color-4: #304d6d;
+    --color-5: #82a0bc;
+}
+
+header {
+    background-color: #82A0BC;
+    color: #fff;
+    text-align: left;
+    padding-inline-start: 0%;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #A7CCED;
+}
+
+#logo{
+    text-align: right;
+    fill:none;
+}
+
+#inicio{
+    font-family: 'Montserrat';
+    font-size: 3rem; /* Tamaño de la fuente */
+    color: #000000; /* Color del texto */
+    text-align: left; /* Alineación del texto */
+    margin-bottom: 20px; /* Espaciado inferior */
+    text-transform: uppercase; /* Convertir el texto a mayúsculas */
+    background-color: var(--color-4);
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* barra de navegacion */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: white;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  .content {
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .content h1 {
+    margin-bottom: 10px;
+}
+
+
+section {
+    padding: 2em;
+}
+
+/*container prouct boxes*/ 
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(40rem, 100%), 1fr));
+    grid-gap: 1rem;
+    flex-wrap: wrap;
+    cursor:cell;
+}
+
+
+.box {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+
+}
+.box:hover {
+    background-color: #f9ff40; 
+}
+
+/*
+#box{
+   background: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px); 
+} */
+.titulo{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Asegura que el div con letras esté sobre el div con la imagen */
+    color: #000000;
+    font-size: 24px;
+}
+.box1{
+    background: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px); 
+    margin: 20px;
+   
+}
+.box2{
+    background: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px); 
+    margin: 20px;
+}
+.box3{
+    background: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px); 
+    margin: 20px;
+}
+.box4{
+    background: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px); 
+    margin: 20px;
+}
+.box5{
+    background: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px); 
+    margin: 20px;
+}
+.box6{
+    background: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px); 
+    margin: 15px;
+}
+.image-container img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+#btnPagos {
+    background-color: #ff9900;
+    color: #fff;
+    padding: 0.8em 1.5em;
+    border: none;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
