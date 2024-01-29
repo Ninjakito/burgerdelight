@@ -1,10 +1,20 @@
 {
+    "quiosc": {
+        "principal-menu": "Main menu",
+        "menu-title": "Menu",
+        "hamburguer": "Hamburger",
+        "potatoes": "Potatoes",
+        "drink": "Drink",
+        "dessert": "Dessert",
+        "promotions": "Promotions",
+        "copy": "&copy; 2024 burgerdelight. All rights reserved."
+    },
     "producto": {
         "product-name": "Product name",
         "product-name-details": "Name: Product name",
         "product-description-details": "Description: Product Description",
         "product-price-details": "Price: Product price",
-        "done": "Done",
+        "done": "Made",
         "back": "Back",
         "ingredient-1": "Ingredient 1",
         "ingredient-2": "Ingredient 2",

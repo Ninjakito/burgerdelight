@@ -51,6 +51,7 @@ async function changeLanguage(lang) {
 
     for (const element in dataCorrecto) {
         let elemento = document.getElementById(element);
+        console.log(elemento);
         elemento.innerHTML = dataCorrecto[element];
     }
 }

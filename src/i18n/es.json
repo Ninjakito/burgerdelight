@@ -1,4 +1,14 @@
 {
+    "quiosc": {
+        "principal-menu": "Menú principal",
+        "menu-title": "Menú",
+        "hamburguer": "Hamburguesa",
+        "potatoes": "Patatas",
+        "drink": "Bebida",
+        "dessert": "Postre",
+        "promotions": "Promociones",
+        "copy": "&copy; 2024 burgerdelight. Todos los derechos reservados."
+    },
     "producto": {
         "product-name": "Nombre del producto",
         "product-name-details": "Nombre: Nombre del producto",
