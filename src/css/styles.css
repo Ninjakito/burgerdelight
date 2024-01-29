@@ -3,13 +3,17 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
+    background-image: url("https://www.antiguarestaurante.com/es/media/90044b3ac9/90044b3aca8bd17ee2f2de11d08274c5.cms.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .tupedido button {
     margin-right: 10px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    font-size:20px;
+    font-size: 20px;
     font-weight: bold;
     border: 1px solid #ccc;
     padding: 0;
@@ -18,7 +22,7 @@ body {
     cursor: pointer;
     width: 800px;
     height: 40px;
-    padding: 0; 
+    padding: 0;
     line-height: 40px;
     text-align: center;
 }
@@ -32,7 +36,9 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     text-align: center;
 }
 
@@ -107,7 +113,7 @@ ul {
     display: inline-block;
 }
 
-.payment-options button{
+.payment-options button {
     margin-right: 30px;
     background-color: #4caf50;
     color: white;
@@ -190,7 +196,7 @@ ul {
 
 .imprimir {
     text-align: right;
-    margin-bottom: 5px; 
+    margin-bottom: 5px;
 }
 
 .imprimir button {
@@ -203,8 +209,8 @@ ul {
     border-radius: 5px;
     cursor: pointer;
     width: 180px;
-    height: 30px; 
-    margin-left: 10px; 
+    height: 30px;
+    margin-left: 10px;
 }
 
 .imprimir button:hover {
@@ -216,9 +222,9 @@ ul {
     margin-right: 30px;
 }
 .nombre {
-    margin-top: 20px; 
-    margin-bottom: 5px; 
-    text-align: right; 
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: right;
     display: inline-block;
 }
 
@@ -276,7 +282,7 @@ ul {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
-    width: 180px; 
+    width: 180px;
     height: 30px;
     margin-left: 10px;
 }
