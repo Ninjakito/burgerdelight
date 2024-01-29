@@ -1,257 +1,253 @@
 :root {
-  background-color: #82A0BC;
+    background-color: #82a0bc;
 }
 
 .boton-desplegable {
-  position: fixed;
-  top: 0%;
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  border: 2px solid white;
-  cursor: pointer;
-  position: fixed;
+    position: fixed;
+    top: 0%;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+    position: fixed;
 }
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
 
 .opciones {
-  display: none;
-  position: relative;
-  top: 50%;
-  left: 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  z-index: 2;
+    display: none;
+    position: relative;
+    top: 50%;
+    left: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 2;
 }
 
 .boton-desplegable:hover .opciones {
-  display: block;
-  position: inherit;
-  top: 6.5%;
+    display: block;
+    position: inherit;
+    top: 6.5%;
 }
 
-#es{
-  background-color: #333;
-  color: white;
-  border: 2px solid white;
-  padding: 0.5rem;
-  margin: 0.5rem;
+.navbaropciones {
+  position: absolute;
+  top: 100%;
+  width: 100%;
 }
 
-#ca{
-  background-color: #333;
-  color: white;
-  border: 2px solid white;
-  padding: 0.5rem;
-  margin: 0.5rem;
+#es {
+    background-color: #333;
+    color: white;
+    border: 2px solid white;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
 
-#en{
-  background-color: #333;
-  color: white;
-  border: 2px solid white;
-  padding: 0.5rem;
-  margin: 0.5rem;
+#ca {
+    background-color: #333;
+    color: white;
+    border: 2px solid white;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
 
-#español:hover{
-  color: #82A0BC;
-  background-color: white;
-  border-radius: 10px;
-  padding: 5px;
-  transition: 0.5s;
-  
+#en {
+    background-color: #333;
+    color: white;
+    border: 2px solid white;
+    padding: 0.5rem;
+    margin: 0.5rem;
 }
 
-#catalan:hover{
-  color: #82A0BC;
-  background-color: white;
-  border-radius: 10px;
-  padding: 5px;
-  transition: 0.5s;
-  
+#español:hover {
+    color: #82a0bc;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;
 }
 
-#ingles:hover{
-  color: #82A0BC;
-  background-color: white;
-  border-radius: 10px;
-  padding: 5px;
-  transition: 0.5s;
-  
+#catalan:hover {
+    color: #82a0bc;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;
 }
 
-
+#ingles:hover {
+    color: #82a0bc;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.5s;
+}
 
 h1 {
-  text-align: center;
-  font-size: 36px;
-  margin-top: 45px;
-  margin-bottom: 45px;
-  color: white;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    color: white;
 }
-
 
 #logo {
-  justify-content: center;
-  text-align: center;
-  fill:none;
+    justify-content: center;
+    text-align: center;
+    fill: none;
 }
 
-#descripcionempresa{
-  margin-right: 250px;
-  margin-left: 250px;
-  color: white;
-  font-size: 18px;
-  margin-bottom: 186px;
+#descripcionempresa {
+    margin-right: 250px;
+    margin-left: 250px;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 186px;
 }
-#descripcion p{
-  margin-right: 250px;
-  margin-left: 250px;
-  color: white;
-  font-size: 18px;
+#descripcion p {
+    margin-right: 250px;
+    margin-left: 250px;
+    color: white;
+    font-size: 18px;
 }
-#descripcion h3{
-  margin-right: 250px;
-  margin-left: 250px;
-  color: white;
-  font-size: 24px;
+#descripcion h3 {
+    margin-right: 250px;
+    margin-left: 250px;
+    color: white;
+    font-size: 24px;
 }
-#descripcion h2{
-  margin-right: 250px;
-  margin-left: 250px;
-  color: white;
-  font-size: 32px;
-}
-
-#formulario{
-  margin-right: 250px;
-  margin-left: 250px;
-  margin-top: 150px;
-  margin-bottom: 50px;
-  color: white;
-  font-size: 24px;
+#descripcion h2 {
+    margin-right: 250px;
+    margin-left: 250px;
+    color: white;
+    font-size: 32px;
 }
 
-.fotosrestaurante{
-  display: flex;
-  justify-content: space-around;
-  margin-bottom: 50px;
+#formulario {
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 24px;
+}
+
+.fotosrestaurante {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
 }
 
 nav {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  background-color: #333;
-  color: white;
-  padding: 10px;
-}
-
-  nav a {
-    display: block;
-    text-decoration: none;
-    color: white;
-  }
-
-  nav a:hover {
-    text-decoration: underline;
-  }
-
-  .content {
-    padding: 20px;
-    animation: fadeIn 1s ease-in-out;
-  }
-  
-  .content h1 {
-    margin-bottom: 10px;
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-
-
-@media screen and (min-width: 1000px) {
-  #hamburguesa{
-    display:none;
-  }
-  }
-  nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #333;
     color: white;
     padding: 10px;
-    }
-  
-    nav a {
-      display: block;
-      text-decoration: none;
-      color: white;
-    }
-  
-    nav a:hover {
-      text-decoration: underline;
-    }
-  
-    .content {
-      padding: 20px;
-      animation: fadeIn 1s ease-in-out;
-    }
-    
-    .content h1 {
-      margin-bottom: 10px;
-    }
-    
-    @keyframes fadeIn {
-      from {
-        opacity: 0;
-      }
-      to {
-        opacity: 1;
-      }
-    }
-  .menu:hover .navbaropciones {
+}
+
+nav a {
     display: block;
-  }
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.content h1 {
+    margin-bottom: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    #hamburguesa {
+        display: none;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
+    padding: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.content h1 {
+    margin-bottom: 10px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.menu:hover .navbaropciones {
+    display: block;
+}
 
 @media screen and (max-width: 1000px) {
-  .menu {
-    display: block;
-  }
-  .navbaropciones {
-    display: none;
-    top: 100%;
-    left: 0;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    z-index: 2;
-  }
-  
-  .menu:hover .navbaropciones {
-    display: block;
-  }
+    .menu {
+        display: block;
+    }
+    .navbaropciones {
+        display: none;
+        top: 100%;
+        left: 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        z-index: 2;
+    }
+
+    .menu:hover .navbaropciones {
+        display: block;
+    }
 }
 
-.atencionalcliente{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-bottom: 50px;
+.atencionalcliente {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
 }
-
-
-
