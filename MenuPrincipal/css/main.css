@@ -12,23 +12,23 @@ body {
 }
 .contenedor-nombre {
     display: flex;
-    
-    background-color: var(--color-4);
-    border-bottom: 2px solid var(--color-3);
-    width: 100%;   
+    background-color: var(--color-4)
 }
 
 #logo{
     text-align: right;
-    height: 100px;
+    fill:none;
+    width: 150px;
+    height: 125px;
     top: 10px;
     justify-content: space-around;
     align-self: self-end;
+    margin: auto;
 }
 
 #inicio{
     font-family: 'Montserrat';
-    font-size: 3rem;
+    font-size: 5rem;
     color: #000000; 
     text-align: left; 
     margin-bottom: 1px; 
@@ -63,8 +63,10 @@ nav{
     background-color: #333;
     color: white;
     padding: 10px;
+    
 }
 nav a {
+    font-size: 30px;
     text-decoration: none;
     color: white;
     justify-content: space-around;
@@ -104,18 +106,20 @@ nav a:hover {
     font-family: 'Montserrat';
     font-size: 2rem;
 }
-/*container prouct boxes*/ 
 .container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr)),;
+    width: fit-content;
+    display: flex;
+    grid-template-columns:
     grid-gap: 1rem;
     flex-wrap: wrap;
-    cursor:cell;
 }
 
 img{
-    height: 250;
-    width: 300;
+    height: 250px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 10px; 
+    float: left;
 }
 .box {
     display: flex;
@@ -124,12 +128,11 @@ img{
     transition: background-color 0.3s ease;
     width: 580px;
     height: 350px; 
-    border: 2px solid #3498db; 
     border-radius: 10px; 
     padding: 3px; 
-    flex-wrap: wrap;
-
+    cursor:cell;
 }
+
 .box:hover {
     background-color: #f9ff40; 
 }
@@ -176,33 +179,27 @@ img{
     justify-content: space-evenly;
     
 }
-@media (max-width: 600px) {
-    .box {
-        flex-basis: 100%; /* Hace que los boxes ocupen el 100% del ancho en pantallas más pequeñas */
-    }
-}
-
-.image-container img {
-    width: 300px;
-    height:250px;
-    object-fit: cover;
-    border-radius: 10px; 
-    float: left;
-}
-
-.ingrediente {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 25%;
-    float: left;
-    flex-direction: column;
+.box7{
+    background: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px); 
     margin: 20px;
+    justify-content: space-evenly;
+    
 }
+.box8{
+    background: rgb(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px); 
+    margin: 20px;
+    justify-content: space-evenly;
+    
+}
+
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
+    justify-content: center;
+    
     padding: 10px;
     bottom: 0;
     width: 100%;
