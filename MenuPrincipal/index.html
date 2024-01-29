@@ -5,30 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <script defer src="src/js/traductor.js"></script>
+    <script defer src="src/js/producto.js"></script>
     <title>Home</title>
 </head>
-<body>
-    
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú de Comida Rápida</title>
-</head>
 
 <body>
-
-    <header id="inicio">
-        <h2>Menu Principal</h2>
-        <div  class="content" id="logo">     
-            <img src="src/img/logo.svg"
-            width="70"
-            height="85" loading="lazy"/>
+    <!--
+    <nav class="contenedor-nombre" >
+        <h2 id="inicio">Menu Principal</h2>     
+        <div>
+            <img  id="logo" src="src/img/logo.svg">
+            <a class="boton" href="quiosc.html" id="done">Hecho</a>
         </div>
-    </header>
+    </nav>
+    -->
+   
+
+    <nav class="contenedor-nombre">
+        <h1 id="inicio">Menu Principal</h1>
+        <div class="contenedor-botones">
+            <img  id="logo" src="src/img/logo.svg">
+            <a class="boton" href="quiosc.html" id="done">Hecho</a>
+        </div>
+    </nav>
  
     <nav class="content">
         <a href="./PgPrincipal.html">Home</a>
@@ -42,20 +42,20 @@
         <p>Ofrecemos deliciosas opciones para satisfacer tu apetito.</p>
         <p>Aquí encontrarás nuestras opciones de comida rápida:</p>
     </section>
-     -->
+ -->
 
     <section id="menu">
        
         <!--agregar elementos del menú -->
-        <div class="container" id="box">
+        <ul class="container" >
             <div class="box box1">
-                <h1 class="titulo">Menu</h1>
+                <li class="titulo">Menus</li>
                 <div class="image-container">
                     <img src="img/menu.jpg" alt="img menu">
                 </div>
             </div>
             <div class="box box2">
-                <h1 class="titulo">Hamburguesa</h1>
+                <h1 class="titulo">Hamburguesas</h1>
                 <div class="image-container">
                     <img src="img/hamburguesa.jpg" alt="img hamburguesa">
                 </div>
@@ -81,10 +81,10 @@
             <div class="box box6">
                 <h1 class="titulo">Promociones</h1>
                 <div class="image-container">
-                    <img src="img/promociones.jpg" alt="img promociones">
+                    <img src="img/promocion.png" alt="img promociones">
                 </div>
             </div>
-        </div>
+        </ul>
        
     </section>
 
