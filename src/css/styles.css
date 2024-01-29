@@ -1,0 +1,341 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.tupedido button {
+    margin-right: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size:20px;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    padding: 0;
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+    width: 800px;
+    height: 40px;
+    padding: 0; 
+    line-height: 40px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.cart {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.product-name {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+}
+
+.product-name:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.total {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 180;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.total:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.login-link {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
+}
+
+.blue {
+    color: blue;
+    cursor: pointer;
+}
+
+.payment-options {
+    margin-top: 0px;
+    display: flex;
+    display: inline-block;
+}
+
+.payment-options button{
+    margin-right: 30px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 60px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.payment-options button:hover {
+    background-color: #45a049;
+}
+
+.or {
+    margin-left: 220px;
+    margin-top: 10px;
+    clear: both;
+}
+
+.payment {
+    margin-top: 10px;
+}
+
+.payment button {
+    margin-right: 8px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 327px;
+}
+
+.payment button:hover {
+    background-color: #45a049;
+}
+
+.moneda {
+    margin-top: 10px;
+}
+
+.moneda button {
+    margin-right: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.moneda button:hover {
+    background-color: #b0b1b0;
+}
+
+.editar {
+    margin-top: 100px;
+    align-self: flex-end;
+}
+
+.editar button {
+    margin-right: 10px;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 327px;
+    height: 100px;
+}
+
+.editar button:hover {
+    background-color: #b0b1b0;
+}
+
+.imprimir {
+    text-align: right;
+    margin-bottom: 5px; 
+}
+
+.imprimir button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 180px;
+    height: 30px; 
+    margin-left: 10px; 
+}
+
+.imprimir button:hover {
+    background-color: #b0b1b0;
+}
+
+.nombre-y-numero {
+    display: inline-block;
+    margin-right: 30px;
+}
+.nombre {
+    margin-top: 20px; 
+    margin-bottom: 5px; 
+    text-align: right; 
+    display: inline-block;
+}
+
+.nombre button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 180px;
+    height: 30px;
+}
+
+.nombre button:hover {
+    background-color: #b0b1b0;
+}
+
+.numero {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.numero button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 180px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.numero button:hover {
+    background-color: #b0b1b0;
+}
+
+.escanear {
+    margin-top: 0px;
+    text-align: right;
+}
+
+.escanear button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 180px; 
+    height: 30px;
+    margin-left: 10px;
+}
+
+.num button:hover {
+    background-color: #b0b1b0;
+}
+
+.num {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: right;
+    display: inline-block;
+}
+
+.num button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 180px;
+    height: 30px;
+}
+
+.nombre button:hover {
+    background-color: #b0b1b0;
+}
+
+.confirmar {
+    margin-top: 100px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.confirmar button {
+    margin-right: 10px;
+    background-color: #ffff00;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 450px;
+    height: 170px;
+}
+
+.confirmar button:hover {
+    background-color: #ddf0a9;
+}
+
+.editar-y-confirmar {
+    display: flex;
+}
+
+.general1 {
+    display: flex;
+}
