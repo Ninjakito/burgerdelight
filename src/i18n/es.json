@@ -63,5 +63,25 @@
         "ingredient-4": "Ingrediente 4",
         "ingredient-5": "Ingrediente 5",
         "ingredient-6": "Ingrediente 6"
+    },
+    "carrito": {
+        "titulocarrito": "Carrito de Compra de Comida Rápida",
+        "pedido": "Tu pedido",
+        "pedidohamburguesa": "Hamburguesa - 4.99€",
+        "patatas": "Patatas - 2.99€",
+        "happymeal": "Happy meal - 5.99€",
+        "bebida": "Bebida x4 - 4.99€",
+        "login": "¿Ya tienes tus datos guardados?",
+        "sesion": "Iniciar sesión",
+        "credito": "Tarjeta de crédito",
+        "debito": "Tarjeta de débito",
+        "nombrepedido": "Nombre",
+        "numeropedido": "Tu número de pedido:",
+        "ticket": "Imprimir ticket",
+        "escanear": "Escanear QR",
+        "efectivo": "Efectivo en caja",
+        "moneda": "Moneda actual: €",
+        "editar": "Editar tu pedido",
+        "confirmar": "CONFIRMAR PAGO"
     }
 }
