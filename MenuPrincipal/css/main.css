@@ -6,20 +6,24 @@
     --color-5: #82a0bc;
 }
 
-
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: linear-gradient(#82a0bc, #a7cced, #304d6d);
+    background-image: linear-gradient(#82a0bc, #a7cced, #304d6d
+    );
+}
+.contenedor-nombre {
+    display: flex;
+    
+    background-color: var(--color-4);
+    border-bottom: 2px solid var(--color-3);
+    width: 100%;   
 }
 
 #logo{
     text-align: right;
-    fill:none;
-    width: 200px;
     height: 100px;
     top: 10px;
+    justify-content: space-around;
+    align-self: self-end;
 }
 
 #inicio{
@@ -27,118 +31,155 @@ body {
     font-size: 3rem;
     color: #000000; 
     text-align: left; 
-    margin-bottom: 1px; /* Espaciado inferior */
+    margin-bottom: 1px; 
     text-transform: uppercase; 
     background-color: var(--color-4);
-    padding: 10px;
-    border: 1px solid #ccc;
+    padding: 5px;
+}
+.boton{
+    font-family: 'Montserrat';
+    font-size: 25px;
+    display: flex;
+    align-items: end ;
+    justify-content: space-between;
+    text-transform: uppercase; 
+    margin: 50px;
+    background-color: 2px solid #fff;
+    border-radius: 10px;
+    padding: 5px; 
+    appearance: none;
+}
+.boton:hover{
+    background-color: rgb(255, 40, 40);
+    color: #000000;
+    
 }
 
 /* barra de navegacion */
-nav .content {
+nav{
+    justify-content: space-between;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     background-color: #333;
     color: white;
     padding: 10px;
-  }
-
-  nav a {
+}
+nav a {
     text-decoration: none;
     color: white;
-  }
+    justify-content: space-around;
+}
 
-  nav a:hover {
+nav a:hover {
     text-decoration: underline;
-  }
+}
 
-  .content {
-    padding: 20px;
+.content {
+    padding: 19px;
     animation: fadeIn 1s ease-in-out;
-  }
-  
-  .content h1 {
-    margin-bottom: 10px;
+    text-align: center;
+    justify-content: space-between;
 }
-
-
-section {
-   
-}
-
+ 
 .titulo{
     font-family: 'Montserrat';
     font-size: 2rem;
     color: #000000; 
     position: absolute;
-    top: 9%; /* Coloca el 50% del elemento principal */
-    left: 50%; /* Coloca el 50% del elemento principal */
+    top: 9%; 
+    left: 50%; 
     transform: translate(-50%, -50%); 
-    text-align: center; /* Centra el texto horizontalmente */
+    text-align: left;
         
 }
+.ordered-list{
+    float: right; 
+    margin-left: 20px; 
+    font-family: 'Montserrat';
+    font-size: 2rem;
+}
+.text {
+    float:right;
+    margin-left: 20px;
+    font-family: 'Montserrat';
+    font-size: 2rem;
+}
 /*container prouct boxes*/ 
-.container {
+.container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(min(40rem, 100%), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(10rem, 100%), 1fr)),;
     grid-gap: 1rem;
     flex-wrap: wrap;
     cursor:cell;
-    position: relative;
 }
 
-
+img{
+    height: 250;
+    width: 300;
+}
 .box {
     display: flex;
     justify-content: center;
     align-items: center;
     transition: background-color 0.3s ease;
-    width: 400px; /* Ancho de la caja */
-    height: 350px; /* Altura de la caja */
-    border: 2px solid #3498db; /* Borde sólido de color azul */
-    border-radius: 10px; /* Radio de las esquinas para hacer los bordes redondos */
+    width: 580px;
+    height: 350px; 
+    border: 2px solid #3498db; 
+    border-radius: 10px; 
     padding: 3px; 
+    flex-wrap: wrap;
 
 }
 .box:hover {
     background-color: #f9ff40; 
 }
 
-
 .box1{
     background: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(10px); 
     margin: 20px;
-    /*
-    width: 50px;
-    height: 50px;
-    */
+    justify-content: space-evenly;
+    
 }
 .box2{
     background: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(10px); 
     margin: 20px;
+    justify-content: space-evenly;
+    
 }
 .box3{
     background: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(10px); 
     margin: 20px;
+    justify-content: space-evenly;
+    
 }
 .box4{
     background: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(10px); 
     margin: 20px;
+    justify-content: space-evenly;
+    
 }
 .box5{
     background: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(10px); 
     margin: 20px;
+    justify-content: space-evenly;
+    
 }
 .box6{
     background: rgb(255, 255, 255, 0.3);
     backdrop-filter: blur(10px); 
     margin: 15px;
+    justify-content: space-evenly;
+    
+}
+@media (max-width: 600px) {
+    .box {
+        flex-basis: 100%; /* Hace que los boxes ocupen el 100% del ancho en pantallas más pequeñas */
+    }
 }
 
 .image-container img {
@@ -146,6 +187,7 @@ section {
     height:250px;
     object-fit: cover;
     border-radius: 10px; 
+    float: left;
 }
 
 .ingrediente {
@@ -157,49 +199,12 @@ section {
     flex-direction: column;
     margin: 20px;
 }
-.ingrediente .botones {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin: 20px;
-}
-
-#btnPagos {
-    background-color: #ff9900;
-    color: #fff;
-    padding: 0.8em 1.5em;
-    border: none;
-    text-decoration: none;
-    font-size: 16px;
-    cursor: pointer;
-}
-
 footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-    padding: 1em;
-    position: fixed;
+    padding: 10px;
     bottom: 0;
     width: 100%;
 }
-@media (max-width: 600px) {
-    .contenedor-nombre .contenedor-botones {
-        order: 2;
-        display: flex;
-        flex-direction: row;
-    }
 
-}
-.contenedor-nombre {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: var(--color-4);
-    border-bottom: 2px solid var(--color-3);
-    width: 100%;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 100;
-}
