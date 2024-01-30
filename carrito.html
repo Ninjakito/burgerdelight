@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title id="titulocarrito">Carrito de Compra de Comida Rápida</title>
+        <link rel="stylesheet" href="./src/css/styles.css" />
+        <script src="./src/js/traductor.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="tupedido">
+                <button id="pedido">Tu pedido</button>
+            </div>
+            <div class="cart-container">
+                <div class="cart">
+                    <ul id="cart-items">
+                        <li>
+                            <span class="product-name" id="pedidohamburguesa">Hamburguesa - 4.99€</span>
+                        </li>
+                        <li>
+                            <span class="product-name" id="patatas">Patatas - 2.99€</span>
+                        </li>
+                        <li>
+                            <span class="product-name" id="happymeal">Happy meal - 5.99€</span>
+                        </li>
+                        <li>
+                            <span class="product-name" id="bebida">Bebida x4 - 4.99€</span>
+                        </li>
+                    </ul>
+                    <div class="total">
+                        <h3>Total: <span id="cart-total">$17.97</span></h3>
+                    </div>
+                    <p class="login-link" id="login">
+                        ¿Ya tienes tus datos guardados?
+                    </p>
+                    <span class="blue" id="sesion">Iniciar sesión</span>
+                </div>
+            </div>
+            <div class="payment-options">
+                <button id="credito">Tarjeta de crédito</button>
+                <button id="debito">Tarjeta de débito</button>
+                <button>Paypal</button>
+
+                <div class="nombre-y-numero">
+                    <div class="nombre">
+                        <button id="nombrepedido">Nombre</button>
+                    </div>
+                    <div class="numero">
+                        <button id="numeropedido">Tu número de pedido:</button>
+                    </div>
+                </div>
+                <div class="imprimir">
+                    <button id="ticket">Imprimir ticket</button>
+                </div>
+                <div class="escanear">
+                    <button id="qr">Escanear QR</button>
+                </div>
+            </div>
+            <div class="or">o</div>
+            <div class="payment">
+                <button id="efectivo">Efectivo en caja</button>
+            </div>
+            <div class="moneda">
+                <button id="moneda">Moneda actual: €</button>
+            </div>
+            <div class="editar-y-confirmar">
+                <div class="editar">
+                    <a href="index.html">
+                        <button id="editar">Editar tu pedido</button>
+                    </a>
+                </div>
+                <div class="confirmar">
+                    <a href="index.html">
+                        <button id="confirmar">CONFIRMAR PAGO</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
