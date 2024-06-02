@@ -3,14 +3,15 @@
 }
 
 .boton-desplegable {
-    position: fixed;
+    position: sticky;
+    width: 7em;
+    height: 1em;
     top: 0%;
     background-color: #333;
     color: #fff;
     padding: 10px;
     border: 2px solid white;
     cursor: pointer;
-    position: fixed;
 }
 @keyframes fadeIn {
     from {
@@ -31,13 +32,15 @@
 }
 
 .boton-desplegable:hover .opciones {
-    display: block;
+    display: flex;
+    width: 15em;
     position: inherit;
-    top: 6.5%;
+    top: 5.0%;
+    padding: 10px;
 }
 
 .navbaropciones {
-  position: absolute;
+  position: relative;
   top: 100%;
   width: 100%;
 }
@@ -93,12 +96,12 @@
 h1 {
     text-align: center;
     font-size: 36px;
-    margin-top: 45px;
-    margin-bottom: 45px;
+    margin-bottom: 45rem;
     color: white;
 }
 
 #logo {
+    padding-top: 5em;
     justify-content: center;
     text-align: center;
     fill: none;
@@ -146,6 +149,8 @@ h1 {
 }
 
 nav {
+    position: sticky;
+    top: 0px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -167,6 +172,9 @@ nav a:hover {
 .content {
     padding: 20px;
     animation: fadeIn 1s ease-in-out;
+}
+.fondo_naranja{
+    background-color: orange;
 }
 
 .content h1 {
