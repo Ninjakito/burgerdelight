@@ -1,5 +1,5 @@
 :root {
-    background-color: #82a0bc;
+    background-color: #ffffff;
 }
 
 .boton-desplegable {
@@ -93,36 +93,16 @@
     transition: 0.5s;
 }
 
+.fotosrestaurante {
+    display: flex;
+    justify-content: space-around;
+}
+
 h1 {
     text-align: center;
     font-size: 36px;
     margin-bottom: 45rem;
     color: white;
-}
-
-#logo {
-    padding-top: 5em;
-    justify-content: center;
-    text-align: center;
-    fill: none;
-}
-
-main {
-    background-image: url("../img/fondo_index.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100%;
-    animation: fadeIn 1s ease-in-out;
-}
-
-#descripcionempresa {
-    margin-right: 250px;
-    margin-left: 250px;
-    color: white;
-    font-size: 18px;
-    margin-bottom: 186px;
 }
 
 nav {
@@ -201,6 +181,36 @@ nav a:hover {
     margin-bottom: 10px;
 }
 
+main {
+    background-image: url("../img/fondo_index.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
+    padding-bottom: 50px;
+}
+
+#descripcion p {
+    margin-right: 250px;
+    margin-left: 250px;
+    color: white;
+    font-size: 18px;
+}
+
+#descripcion h3 {
+    margin-right: 250px;
+    margin-left: 250px;
+    color: white;
+    font-size: 24px;
+}
+#descripcion h2 {
+    margin-right: 250px;
+    margin-left: 250px;
+    color: white;
+    font-size: 32px;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -229,5 +239,3 @@ nav a:hover {
         display: block;
     }
 }
-
-
