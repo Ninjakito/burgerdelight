@@ -6,13 +6,14 @@
     --color-5: #82a0bc;
 }
 
-a {
-    text-decoration: none;
-}
 
 body {
-    background-image: linear-gradient(#82a0bc, #a7cced, #304d6d
-    );
+    background-image: url("../img/madera.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
 }
 .contenedor-nombre {
     display: flex;
@@ -25,8 +26,6 @@ body {
     width: 150px;
     height: 125px;
     top: 10px;
-    justify-content: space-around;
-    align-self: self-end;
     margin: auto;
 }
 
@@ -40,6 +39,7 @@ body {
     background-color: var(--color-4);
     padding: 5px;
 }
+
 .boton{
     font-family: 'Montserrat';
     font-size: 25px;
@@ -60,20 +60,27 @@ body {
 }
 
 /* barra de navegacion */
-nav{
-    justify-content: space-between;
+.navbaropciones {
+    position: relative;
+    top: 100%;
+    width: 100%;
+  }
+  
+nav {
+    position: sticky;
+    top: 0px;
     display: flex;
+    justify-content: space-around;
     align-items: center;
     background-color: #333;
     color: white;
     padding: 10px;
-    
 }
+
 nav a {
-    font-size: 30px;
+    display: block;
     text-decoration: none;
     color: white;
-    justify-content: space-around;
 }
 
 nav a:hover {
@@ -81,10 +88,8 @@ nav a:hover {
 }
 
 .content {
-    padding: 19px;
+    padding: 20px;
     animation: fadeIn 1s ease-in-out;
-    text-align: center;
-    justify-content: space-between;
 }
  
 .titulo{
