@@ -153,25 +153,6 @@ ul {
     background-color: #45a049;
 }
 
-.moneda {
-    margin-top: 10px;
-}
-
-.moneda button {
-    margin-right: 10px;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    border: 1px solid #ccc;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 150px;
-}
-
-.moneda button:hover {
-    background-color: #b0b1b0;
-}
-
 .editar {
     margin-top: 100px;
     align-self: flex-end;
@@ -194,39 +175,44 @@ ul {
     background-color: #b0b1b0;
 }
 
-.imprimir {
-    text-align: right;
-    margin-bottom: 5px;
-}
 
-.imprimir button {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
-    font-size: 13px;
-    align-items: center;
-    border: 1px solid #ccc;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 180px;
-    height: 30px;
-    margin-left: 10px;
-}
-
-.imprimir button:hover {
-    background-color: #b0b1b0;
-}
-
-.nombre-y-numero {
-    display: inline-block;
+.informacion {
+    display: block;
     margin-right: 30px;
 }
 .nombre {
     margin-top: 20px;
     margin-bottom: 5px;
-    text-align: right;
-    display: inline-block;
+    text-align: left;
+    display: block;
 }
+
+.numero {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+    display: block;
+}
+
+.imprimir {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+    display: block;
+}
+
+.escanear {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+    display: block;
+}
+
+.moneda {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+    display: block;}
 
 .nombre button {
     background-color: #ffffff;
@@ -245,34 +231,39 @@ ul {
     background-color: #b0b1b0;
 }
 
-.numero {
-    text-align: right;
-    margin-bottom: 20px;
-}
-
 .numero button {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    font-size: 12px;
+    font-size: 13px;
     align-items: center;
     border: 1px solid #ccc;
-    padding: 10px 10px;
+    padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
     width: 180px;
     height: 30px;
-    margin-left: 10px;
 }
 
 .numero button:hover {
     background-color: #b0b1b0;
 }
 
-.escanear {
-    margin-top: 0px;
-    text-align: right;
+.imprimir button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 180px;
+    height: 30px;
 }
 
+.imprimir button:hover {
+    background-color: #b0b1b0;
+}
 .escanear button {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
@@ -284,21 +275,9 @@ ul {
     cursor: pointer;
     width: 180px;
     height: 30px;
-    margin-left: 10px;
 }
 
-.num button:hover {
-    background-color: #b0b1b0;
-}
-
-.num {
-    margin-top: 20px;
-    margin-bottom: 5px;
-    text-align: right;
-    display: inline-block;
-}
-
-.num button {
+.moneda button {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
     font-size: 13px;
@@ -311,9 +290,11 @@ ul {
     height: 30px;
 }
 
-.nombre button:hover {
+.moneda button:hover {
     background-color: #b0b1b0;
 }
+
+
 
 .confirmar {
     margin-top: 100px;
