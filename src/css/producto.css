@@ -7,9 +7,15 @@
 }
 
 body {
-    background-color: var(--color-5);
+    background-image: url("../img/madera.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
     font-size: 18px;
     margin-top: 6em;
+    color: white;
 }
 
 .contenedor-nombre h1 {
