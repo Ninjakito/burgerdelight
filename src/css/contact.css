@@ -156,7 +156,7 @@ nav a:hover {
 
 
 main {
-    background-image: url("../img/fondo_index.webp");
+    background-image: url("../img/contactar.webp");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -168,19 +168,19 @@ main {
 #descripcion p {
     margin-right: 2em;
     margin-left: 2em;
-    color: white;
+    color: black;
     font-size: 1rem;
 }
 #descripcion h3 {
     margin-right: 2em;
     margin-left: 2em;
-    color: white;
+    color: black;
     font-size: 1rem;
 }
 #descripcion h2 {
     margin-right: 2em;
     margin-left: 2em;
-    color: white;
+    color: black;
     font-size: 1rem;
 }
 
@@ -224,7 +224,7 @@ main {
     margin-left: 15em;
     padding-top: 4em;
     margin-bottom: 50px;
-    color: white;
+    color: black;
     font-size:1.2rem;
 }
 
