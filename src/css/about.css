@@ -100,7 +100,7 @@
 
 h1 {
     text-align: center;
-    font-size: 36px;
+    font-size: 4rem;
     margin-bottom: 45rem;
     color: white;
 }
@@ -168,20 +168,20 @@ main {
     margin-right: 250px;
     margin-left: 250px;
     color: white;
-    font-size: 18px;
+    font-size: 1.5rem;
 }
 
 #descripcion h3 {
     margin-right: 250px;
     margin-left: 250px;
     color: white;
-    font-size: 24px;
+    font-size: 2rem;
 }
 #descripcion h2 {
     margin-right: 250px;
     margin-left: 250px;
     color: white;
-    font-size: 32px;
+    font-size: 2rem;
 }
 
 @keyframes fadeIn {
