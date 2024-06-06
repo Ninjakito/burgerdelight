@@ -128,7 +128,7 @@ nav a:hover {
 }
 
 .content {
-    padding: 20px;
+    padding: 1.5rem;
     animation: fadeIn 1s ease-in-out;
 }
 .fondo_naranja{
@@ -166,20 +166,20 @@ main {
 }
 
 #descripcion p {
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 2em;
+    margin-left: 2em;
     color: white;
     font-size: 1rem;
 }
 #descripcion h3 {
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 2em;
+    margin-left: 2em;
     color: white;
     font-size: 1rem;
 }
 #descripcion h2 {
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 2em;
+    margin-left: 2em;
     color: white;
     font-size: 1rem;
 }
@@ -220,8 +220,8 @@ main {
 }
 
 #formulario {
-    margin-right: 250px;
-    margin-left: 250px;
+    margin-right: 4em;
+    margin-left: 15em;
     padding-top: 4em;
     margin-bottom: 50px;
     color: white;
@@ -233,5 +233,5 @@ main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 5em;
 }
