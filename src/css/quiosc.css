@@ -59,7 +59,7 @@ body {
 }
 
 .boton:hover{
-    background-color: rgb(255, 40, 40);
+    background-color: yellow;
     color: #000000;
 }
 
