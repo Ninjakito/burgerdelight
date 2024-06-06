@@ -155,13 +155,27 @@ nav a:hover {
 
 
 main {
-    background-image: url("../img/sobre_nosotros.webp");
+    position: relative;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 100vh;
     width: 100%;
     animation: fadeIn 1s ease-in-out;
-    padding-bottom: 5em;
+}
+
+main::before {
+    content: "";
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/sobre_nosotros.webp");
+    opacity: 0.5;
+    z-index: -1;
 }
 
 #descripcion p {
