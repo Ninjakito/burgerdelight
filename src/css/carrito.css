@@ -326,3 +326,53 @@ ul {
 .general1 {
     display: flex;
 }
+
+@media  (max-width: 860px) {
+    .tupedido button {
+        font-size: 1rem;
+    }
+    
+    .container {
+        max-width: 33em;
+    }
+    .editar button {
+        font-size: 1rem;
+    }
+    .editar button {
+        width: 15em;
+    }
+    .confirmar button {
+        width: 15em;
+    }
+    .confirmar button {
+        font-size: 1rem;
+    }
+}
+
+@media  (max-width: 600px) {
+    .tupedido button {
+        font-size: 0.6rem;
+    }
+    
+    .container {
+        max-width: 20em;
+    }
+    .product-name {
+        font-size: 0.6rem;
+    }
+    .payment-options button {
+        font-size: 0.7rem;
+    }
+    .editar button {
+        font-size: 0.8rem;
+    }
+    .editar button {
+        width: 10em;
+    }
+    .confirmar button {
+        width: 15em;
+    }
+    .confirmar button {
+        font-size: 0.6rem;
+    }
+}
