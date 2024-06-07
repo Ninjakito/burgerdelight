@@ -216,22 +216,6 @@ main::before {
     display: block;
 }
 
-@media screen and (max-width: 1000px) {
-    .menu {
-        display: block;
-    }
-    .navbaropciones {
-        display: none;
-        top: 100%;
-        left: 0;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        z-index: 2;
-    }
-
-    .menu:hover .navbaropciones {
-        display: block;
-    }
-}
 
 #formulario {
     margin-right: 4em;
@@ -248,4 +232,15 @@ main::before {
     justify-content: space-around;
     align-items: center;
     margin-bottom: 5em;
+}
+
+@media (max-width: 1000px) {
+    #formulario {
+        font-size: 2rem;
+        margin-right: 2em;
+        margin-left: 2em;
+    }
+    #envio {
+        font-size: 2rem;
+    }
 }

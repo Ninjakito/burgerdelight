@@ -148,12 +148,6 @@ nav a:hover {
     }
 }
 
-@media screen and (min-width: 1000px) {
-    #hamburguesa {
-        display: none;
-    }
-}
-
 
 main {
     position: relative;
@@ -214,19 +208,16 @@ main::before {
     display: block;
 }
 
-@media screen and (max-width: 1000px) {
-    .menu {
-        display: block;
+@media (max-width: 1000px) {
+    #descripcion {
+        font-size: 2rem;
     }
-    .navbaropciones {
-        display: none;
-        top: 100%;
-        left: 0;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        z-index: 2;
+    #descripcion h2 {
+        margin-right: 10em;
+        margin-left: 6em;
     }
-
-    .menu:hover .navbaropciones {
-        display: block;
+    #descripcion h3 {
+        margin-right: 10em;
+        margin-left: 6em;
     }
 }

@@ -183,13 +183,6 @@ nav a:hover {
     }
 }
 
-@media screen and (min-width: 1000px) {
-    #hamburguesa {
-        display: none;
-    }
-}
-
-
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -202,20 +195,10 @@ nav a:hover {
     display: block;
 }
 
-@media screen and (max-width: 1000px) {
-    .menu {
-        display: block;
-    }
-    .navbaropciones {
-        display: none;
-        top: 100%;
-        left: 0;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        z-index: 2;
-    }
-
-    .menu:hover .navbaropciones {
-        display: block;
+@media (max-width: 1000px) {
+    #descripcionempresa {
+        width: 50%;
+        font-size: 2em;
     }
 }
 
