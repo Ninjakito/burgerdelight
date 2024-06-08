@@ -75,6 +75,7 @@
         "sesion": "Iniciar sesión",
         "credito": "Tarjeta de crédito",
         "debito": "Tarjeta de débito",
+        "paypal": "Paypal u otra forma de pago",
         "nombrepedido": "Nombre",
         "numeropedido": "Tu número de pedido:",
         "ticket": "Imprimir ticket",

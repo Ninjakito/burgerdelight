@@ -75,6 +75,7 @@
             "sesion": "Log in",
             "credito": "Credit card",
             "debito": "Debit card",
+            "paypal": "Paypal or another method",
             "nombrepedido": "Name",
             "numeropedido": "Your order number:",
             "ticket": "Print ticket",

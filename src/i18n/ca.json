@@ -75,6 +75,7 @@
             "sesion": "Iniciar sessió",
             "credito": "Targeta de crèdit",
             "debito": "Targeta de dèbit",
+            "paypal": "Paypal o altre forma de pagar",
             "nombrepedido": "Nom",
             "numeropedido": "El teu número de comanda:",
             "ticket": "Imprimir tiquet",
