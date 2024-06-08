@@ -177,12 +177,12 @@ footer {
     }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 580px) {
     #logo{
         width: 8em;
         height: 6em;
     }
-    #inicio {
+    #quiosc-title {
         font-size: 2em;
     }
     .boton {
@@ -198,5 +198,13 @@ footer {
     }
     .titulo {
         color: white;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
     }
 }

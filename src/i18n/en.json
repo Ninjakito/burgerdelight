@@ -26,7 +26,7 @@
         "parrafo5": "We believe in giving back to the community that has supported us. Burger Delight actively participates in local initiatives and community events. In addition, we strive to adopt sustainable practices in our operations to minimise our environmental impact. ",
         "home": "Home",
         "about": "About us",
-        "contact": "contact",
+        "contact": "Contact",
         "acceso": "Kiosk access"
     },
     "contact": {
@@ -50,7 +50,7 @@
         "quiosc-title": "KIOSK",
         "menus": "MENUS",
         "individuales": "Individuals",
-        "para-dos": "For TWO",
+        "para-dos": "For two",
         "mas-de-tres": "More than three",
         "infantil": "Childish",
         "hamburguesas": "Burgers",
@@ -71,7 +71,7 @@
         "helados": "Ice creams",
         "tartas": "Cakes",
         "batidos": "Smoothies",
-        "gofres": "waffles",
+        "gofres": "Waffles",
         "promociones": "Promotions",
         "complementos": "Accessories",
         "alitas": "Wings",
@@ -79,10 +79,10 @@
         "ensaladas": "Salads",
         "salsas": "Sauces",
         "barbacoa": "Barbecue",
-        "chilli": "chilli",
+        "chilli": "Chilli",
         "mostaza-miel": "Mustard and honey",
         "cheddar": "Cheddar",
-        "alioli": "Aioli",
+        "alioli": "Allioli",
         "copy": "&copy; 2024 burgerdelight. All rights reserved."
     },
     "producto": {
@@ -112,7 +112,7 @@
         "debito": "Debit card",
         "paypal": "Paypal, other",
         "nombrepedido": "Name",
-        "numeropedido": "Your order number:",
+        "numeropedido": "Order number: 27",
         "ticket": "Print ticket",
         "qr": "Scan QR",
         "efectivo": "Cash on hand",
