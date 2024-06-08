@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Contact</title>
+    <link rel="icon" href="../src/img/logo.svg" type="image/x-icon">
+    <meta name="author" content="Adrian Villodres Fernández" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta name="keywords" content="HTML, hipertexto, elementos, etiquetas, enlaces, Web, Javascript, Marcas" />
+    <meta name="robots" content="index,follow" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../src/css/reset.css" />
+    <link rel="stylesheet" href="../src/css/contact.css" />
+    <script defer src="../src/js/traductor.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="content fondo_naranja">
+            <div class="boton-desplegable">
+                Idioma/Language
+                <div class="opciones">
+                    <a href="contact.html?lang=es" id="es">Español</a>
+                    <a href="contact.html?lang=ca" id="ca">Catalan</a>
+                    <a href="contact.html?lang=en" id="en">Ingles</a>
+                </div>
+            </div>
+            <h1 id="titulocontact">Formulario de Contacto</h1>
+        </div>
+    </header>
+    <nav class="content">
+        <a href="../index.html" id="home">Inicio</a>
+        <a href="./about.html" id="about">Sobre nosotros</a>
+        <a href="./contact.html" id="contact">Contacto</a>
+        <a href="./quiosc.html" id="acceso">Acceso a Quiosco</a>
+    </nav>
+    <main>
+        <div id="formulario">
+            <form name="contact" netlify>
+                <label for="nombre" id="nombre">Nombre:</label>
+                <input type="text" name="nombre" required />
+                <br />
+                <br />
+                <br />
+                <label for="email" id="email">Correo Electrónico:</label>
+                <input type="email" name="email" required />
+                <br />
+                <br />
+                <br />
+                <label for="mensaje" id="mensaje">Mensaje:</label>
+                <textarea name="mensaje" required></textarea>
+                <br />
+                <br />
+                <br />
+                <button type="submit" id="envio">Enviar</button>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>

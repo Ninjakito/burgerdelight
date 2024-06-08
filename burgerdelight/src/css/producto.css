@@ -1,0 +1,215 @@
+:root {
+    --color-1: #545e75;
+    --color-2: #63adf2;
+    --color-3: #a7cced;
+    --color-4: #304d6d;
+    --color-5: #82a0bc;
+}
+
+body {
+    background-image: url("../img/madera.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    animation: fadeIn 1s ease-in-out;
+    font-size: 1rem;
+    margin-top: 6em;
+    color: white;
+}
+
+.contenedor-nombre h1 {
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 1em;
+    color: white;
+}
+
+.contenedor-nombre {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-4);
+    border-bottom: 2px solid var(--color-3);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+.contenedor-nombre a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin: 1em;
+    padding: 0.5em;
+    background-color: var(--color-2);
+    border-radius: 10px;
+}
+
+.contenedor-nombre a:hover {
+    background-color: var(--color-3);
+}
+
+.ingrediente {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    float: left;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.ingrediente li {
+    list-style: none;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.ingrediente button {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    border: none;
+    background-color: var(--color-3);
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 80px;
+}
+
+.ingrediente button:hover {
+    background-color: var(--color-2);
+    cursor: pointer;
+}
+
+.ingrediente button:active {
+    background-color: var(--color-4);
+}
+
+.ingrediente .botones {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px;
+}
+
+.ingrediente .botones p {
+    border-radius: 50%;
+    width: 3.5em;
+    height: 3.5em;
+    border: none;
+    background-color: var(--color-3);
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 80px;
+}
+
+.ingrediente img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1em;
+}
+
+.producto {
+    background: var(--color-4);
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.producto img {
+    margin-right: 20px;
+    width: 20%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid var(--color-3);
+}
+
+.detalles {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    gap: 1em;
+    color: white;
+    font-size: 1.2em;
+}
+
+@media (max-width: 600px) {
+    .contenedor-nombre h1 {
+        font-size: 1.5rem;
+        order: 1;
+        margin-top: 20px;
+    }
+    
+    .contenedor-nombre {
+        flex-direction: column;
+    }
+    
+    .contenedor-nombre .contenedor-botones {
+        order: 2;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contenedor-botones a {
+        margin-top: 0;
+        font-size: 1rem;
+    }
+
+    body {
+        margin-top: 8em;
+    }
+
+    .producto {
+        flex-direction: column;
+    }
+
+    .producto img {
+        order: -1;
+        width: 100%;
+    }
+
+    .ingrediente .botones {
+        gap: 10px;
+    }
+
+    .ingrediente .botones button {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 1rem;
+    }
+
+    .ingrediente .botones p {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: 1rem;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
