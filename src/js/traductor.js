@@ -26,7 +26,7 @@ async function changeLanguage(lang) {
         lang;
     window.history.replaceState({}, "", newURL);
 
-    const response = await fetch(`./src/i18n/${lang}.json`);
+    const response = await fetch(`/src/i18n/${lang}.json`);
 
     if (response.status === 404) {
         console.log(`No existe el archivo ${lang}.json`);
@@ -35,23 +35,23 @@ async function changeLanguage(lang) {
 
     const data = await response.json();
 
-    const archivo =
-        window.location.pathname.replace("/", "").replace(".html", "") === ""
-            ? "index"
-            : window.location.pathname.replace("/", "").replace(".html", "");
+    const url = window.location.pathname.split("/");
+    const archivo = url[url.length - 1];
+    const seccion = archivo.split(".")[0] == "" ? "index" : archivo.split(".")[0];
 
-    console.log(archivo);
-
-    const dataCorrecto = data[archivo];
+    const dataCorrecto = data[seccion];
 
     if (!dataCorrecto) {
-        console.log(`No existe la traducción para ${archivo}`);
+        console.log(`No existe la traducción para ${seccion}`);
         return;
     }
 
     for (const element in dataCorrecto) {
         let elemento = document.getElementById(element);
-        console.log(elemento);
-        elemento.innerHTML = dataCorrecto[element];
+        try {
+            elemento.innerHTML = dataCorrecto[element];
+        } catch (error) {
+            console.log(`No se pudo traducir ${element}: ${error}`);
+        }
     }
 }
